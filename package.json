@@ -1,0 +1,10 @@
+{
+  "name": "seotools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^12.0.0",
+    "gray-matter": "^4.0.3"
+  }
+}
