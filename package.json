@@ -1,5 +1,5 @@
 {
-  "name": "seotools",
+  "name": "better-seo-validations",
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,7 @@
     "lib/**/*"
   ],
   "description": "SEO Tools to analyze Websites",
-  "repository": "https://github.com/schultyy/seotools",
+  "repository": "https://github.com/schultyy/better-seo-validations",
   "author": "Jan Schulte <jan@work-with-jan.com>",
   "private": false,
   "devDependencies": {
