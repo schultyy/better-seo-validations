@@ -5,8 +5,8 @@ export function doesKeywordPartialMatch(keyword: string, fieldValue: string): bo
   const splittedKeyword = keyword.split(' ');
   const foundWordResults = [];
 
-  for (let i = 0; i < splittedKeyword.length; i++) {
-    const currentKeywordPartial = splittedKeyword[i].toLowerCase();
+  for (const partialKeyword of splittedKeyword) {
+    const currentKeywordPartial = partialKeyword.toLowerCase();
     foundWordResults.push(fieldValue.toLowerCase().indexOf(currentKeywordPartial) !== -1);
   }
 

@@ -11,7 +11,7 @@ import { ParagraphError } from './errors/paragraphError';
 
 export function extractKeywords(currentFile: string): string[] {
   const frontmatter = matter(currentFile);
-  const keywords = frontmatter.data['keywords'] || frontmatter.data['Keywords'];
+  const keywords = frontmatter.data.keywords || frontmatter.data.Keywords;
   if (!keywords) {
     return [];
   }
